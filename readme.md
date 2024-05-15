@@ -79,6 +79,6 @@ test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1
 - Certs by cert centers which verify owners of sites
 - Self-signed: certs can be prepared by IT team and w/o cert center
 - HSTS forces HTTP to use HTTPS for sites which use both
-- Hacker can substitute original cert with open key sent by server with his own if he is bewtween client & server, expecially if certs are self-signed
+- Hacker can substitute original cert with open key sent by server with his own if he is between client & server, expecially if certs are self-signed & both cli & srv will think that communication is secure
 
 

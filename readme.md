@@ -1,5 +1,5 @@
 test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test
-======================================================================================================================================================
+
 149 chars
 
 # medcalc

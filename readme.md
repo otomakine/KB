@@ -3,7 +3,7 @@ test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1
 - 145 chars on m1 laptops
 <a id="#main">Main</a>
 
-[HTTP](##HTTP) [HTTPS](##HTTPS)
+[HTTP](#HTTP) [HTTPS](#HTTPS)
 
 ## Some Title 1
 Some content

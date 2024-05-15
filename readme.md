@@ -1,60 +1,24 @@
-<a id="home">home</a>
-
-  
-[HTTP](#HTTP) [HTTPS](#HTTPS) 
+<a id="home">Home:</a>
 <br>
-
+[TCP](#TCP "TCP/IP model")
+[OSI](#OSI "OSI model")
+[HTTP](#HTTP "Hypertext Transfer Protocol, TCP :80, TCP/IP model: App lyr, OSI: highest 2nd lyr")
+[HTTPS](#HTTPS "Hypertext Transfer Protocol Secure, TCP :443, TCP/IP model: App lyr, OSI: highest 2nd lyr") 
+<br>
 [PY](#PY "some test<br>some text<br>some text<br>'''<br>test<br>'''<br>some text<br>some text")
-[{}](#{} "dictionary")
-
-
+[[]](#[] "Lists")
+[{}](#{} "Dictionaries")
+[()](#() "Tuples")
+[VAR](#VAR "Variabes")
+</br>
+[CI](#CI "Continuous intergration (code is commited & tested)")
+[CD](#CD "Continuouse delivery (CI + deployed in prod)")
+</br>
 [EXT](#EXT "Extensions")
 [MD](#MD "Markdown")
+</br>
 
-<br>
-
-
-## Some Title 1
-Some content
-add() # comment
-<b>[hover text1](## "your hover text")</b>
-
-<details><summary>Вопрос</summary>Ответ</details> <details><summary>Вопрос1</summary>Ответ</details>
-<details><summary>Вопрос2</summary>Ответ</details>
-<details><summary>Вопрос3</summary>Ответ</details>
-<details><summary>Вопрос4</summary>Ответ</details>
-<details><summary>Вопрос5</summary>Ответ</details>
-<details><summary>Вопрос6</summary>Ответ</details>
-
-
-[Hover your mouse here to see the tooltip](https://stackoverflow.com/a/71729464/11465149 "This is a tooltip :)")
-
-[id1]: ## "your hover text"
-[hover text][id1]
-
-- some text
-- some text
-- some text
-- some text
-- some text
-- some text
-- some text
-- some text
-- some text
-- some text
-- some text
-- some text
-- some text
-- some text
-- some text
-- some text
-- some text
-- some text
-- some text
-
-[^](#main) Some text
-[Some title 1](#some-title-1)
-
+# Contents:
 ### <a id="PY">PY</a>
 - PY RU 1hr: https://www.youtube.com/watch?v=aySjqUWbU3E
 
@@ -63,10 +27,10 @@ add() # comment
 
 ### <a id="MD">MD</a>
 test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1
-- This one from above is 145 chars
-- [Inspired by](https://gist.github.com/Jekins/2bf2d0638163f1294637#some-title-1)
-- 149 chars on ext monitor
-- 145 chars on m1 laptops
+- Line above is 145 chars, it is OK for m1 laptops
+- My ext mon can support even 149 chars
+- Inspired by https://gist.github.com/Jekins/2bf2d0638163f1294637#some-title-1
+- Folding text <details><summary>Каков вопрос</summary>Таков и ответ</details> 
 
 ### <a id="HTTP">HTTP</a>
 [home](#home)

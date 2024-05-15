@@ -45,6 +45,8 @@ Some content
 [^](#main) Some text
 [Some title 1](#some-title-1)
 
+### <a id="PY">PY</a>
+- PY RU 1hr: https://www.youtube.com/watch?v=aySjqUWbU3E
 
 ### <a id="MD">MD</a>
 test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1

@@ -60,11 +60,9 @@ test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1
 - 149 chars on ext monitor
 - 145 chars on m1 laptops
 
-### <a id="HTTP">HTTP</a>
-[home](#home)
-- blah blab
+### <a id="HTTP">HTTP</a> [home](#home)
+- Hypertext Transfer Protocol, :80, 
 
-### <a id="HTTPS">HTTPS</a>
-[home](#home)
-- blah blab
+### <a id="HTTPS">HTTPS</a> [home](#home)
+- SSL/TLS
 

@@ -7,7 +7,7 @@
 [PY](#PY "some test<br>some text<br>some text<br>'''<br>test<br>'''<br>some text<br>some text")
 [{}](#{} "dictionary")
 
-<br>
+
 [EXT](#EXT "Extensions")
 [MD](#MD "Markdown")
 

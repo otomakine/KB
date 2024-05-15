@@ -3,7 +3,7 @@ test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1
 - 145 chars on m1 laptops
 <a id="#main">Main</a>
 
-
+[Перейти к Заголовку 1](#title1)
 
 ## Some Title 1
 Some content
@@ -44,5 +44,9 @@ Some content
 - some text
 
 [^](#main) Some text
+[Some title 1](#some-title-1)
 
-  [Some title 1](#some-title-1)
+
+
+## <a id="title1">Заголовок 1</a>
+Какой-то контент

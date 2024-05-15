@@ -8,8 +8,8 @@
 [{}](#{} "dictionary")
 
 <br>
-Files
-[MD](#MD)
+[EXT](#EXT "Extensions")
+[MD](#MD "Markdown")
 
 <br>
 

@@ -16,6 +16,12 @@
 [Git](#Git "Git, bought by MS")
 [TFVC](#TFVC "Team Fondation Version Control")
 <br>
+[Data](#Data "Data"):
+<br>
+[SQL](#SQL "SQL"):
+<br>
+[NoSQL](#NoSQL "NoSQL"):
+<br>
 [EXT](#EXT "Extensions"):
 [MD](#MD "Markdown")
 <br>

@@ -60,9 +60,21 @@ test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1
 - 149 chars on ext monitor
 - 145 chars on m1 laptops
 
-### <a id="HTTP">HTTP</a> [home](#home)
-- Hypertext Transfer Protocol, :80, 
+### <a id="HTTP">HTTP</a>
+[home](#home)
+- Hypertext Transfer Protocol, TCP :80, 
 
-### <a id="HTTPS">HTTPS</a> [home](#home)
-- SSL/TLS
+### <a id="HTTPS">HTTPS</a>
+[home](#home)
+- Hypertext Transfer Protocol, TCP :443
+- SSL/TLS are encr transport mechs: [Secure Sockets Layer & Transport Layer Security] 
+- SSL/TLS: (1995 Netscape) SSL = TLS 1.0 > (>2005 IETF) TLS 1.1/TLS1.2
+- Server sends cert to client, client verifies & connection is opened (protocol RFC2459)
+- If info in cert does not corresponds to server URI user is warned
+- Client also send its info to server (same protocol RFC2459)
+- Certs by cert centers which verify owners of sites
+- Self-signed: certs can be prepared by IT team and w/o cert center
+- HSTS forces HTTP to use HTTPS for sites which use both
+- Hacker can substitute original cert with open key sent by server with his own if he is bewtween client & server, expecially if certs are self-signed
+
 

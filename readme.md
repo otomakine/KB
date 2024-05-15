@@ -49,6 +49,7 @@ Some content
 ### <a id="MD">MD</a>
 test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1
 - This one from above is 145 chars
+- [Inspired by](https://gist.github.com/Jekins/2bf2d0638163f1294637#some-title-1)
 - 149 chars on ext monitor
 - 145 chars on m1 laptops
 

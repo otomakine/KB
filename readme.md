@@ -1,6 +1,7 @@
 test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test
-149 chars
+149 chars on ext monitor
 
+<b>[hover text1](## "your hover text")</b>
 
 <details><summary>Вопрос</summary>Ответ</details> <details><summary>Вопрос1</summary>Ответ</details>
 <details><summary>Вопрос2</summary>Ответ</details>
@@ -13,5 +14,6 @@ test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1
 [Hover your mouse here to see the tooltip](https://stackoverflow.com/a/71729464/11465149 "This is a tooltip :)")
 
 [id1]: ## "your hover text"
-This is a [hover text][id1] example.
-This is a [hover text](## "your hover text") example.
+[hover text][id1]
+
+

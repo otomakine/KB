@@ -1,7 +1,12 @@
 test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1
 - 149 chars on ext monitor
 - 145 chars on m1 laptops
-<a id="main">Main</a>
+<a id="#main">Main</a>
+
+
+
+## Some Title 1
+Some content
 
 <b>[hover text1](## "your hover text")</b>
 
@@ -38,5 +43,6 @@ test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1
 - some text
 - some text
 
-[^](main) Some text
-  
+[^](#main) Some text
+
+  [Some title 1](#some-title-1)

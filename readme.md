@@ -48,12 +48,12 @@ Some content
 
 
 
-## <a id="title1">Заголовок 1</a>
-Какой-то контент
 
-## HTTP
+
+
+## <a id="HTTP">HTTP</a>
 - blah blab
 
-## HTTPS
+## <a id="HTTPS">HTTPS</a>
 - blah blab
 

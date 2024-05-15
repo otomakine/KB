@@ -5,17 +5,25 @@
 [HTTP](#HTTP "Hypertext Transfer Protocol, TCP :80, TCP/IP model: App lyr, OSI: highest 2nd lyr")
 [HTTPS](#HTTPS "Hypertext Transfer Protocol Secure, TCP :443, TCP/IP model: App lyr, OSI: highest 2nd lyr") 
 <br>
+[CI](#CI "Continuous intergration (code is commited & tested)")/
+[CD](#CD "Continuouse delivery (CI + deployed in prod)"):
+[Jenkins](#Jenkins "Jenkins")
+[GHA](#GHA "GitHub Actions")
+[TFS](#TFS "MS Team Fonation Server, up to 2018")
+[ADevOps](#ADevOps "MS Azure DevOps, ")
+[TC](#TeamCity "Team City")
+</br>
+[Git](#Git "Git, bought by MS")
+[TFVC](#TFVC "Team Fondation Version Control")
+<br>
+[EXT](#EXT "Extensions"):
+[MD](#MD "Markdown")
+</br>
 [PY](#PY "some test<br>some text<br>some text<br>'''<br>test<br>'''<br>some text<br>some text")
 [[]](#[] "Lists")
 [{}](#{} "Dictionaries")
 [()](#() "Tuples")
 [VAR](#VAR "Variabes")
-</br>
-[CI](#CI "Continuous intergration (code is commited & tested)")
-[CD](#CD "Continuouse delivery (CI + deployed in prod)")
-</br>
-[EXT](#EXT "Extensions")
-[MD](#MD "Markdown")
 </br>
 
 # Contents:
@@ -49,4 +57,7 @@ test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1
 - HSTS forces HTTP to use HTTPS for sites which use both
 - Hacker can substitute original cert with open key sent by server with his own if he is between client & server, expecially if certs are self-signed & both cli & srv will think that communication is secure
 
+### <a id="ADevOps">Azure DevOps</a>
+[home](#home)
+- Wiki: https://en.wikipedia.org/wiki/Azure_DevOps_Server
 

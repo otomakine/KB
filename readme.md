@@ -5,7 +5,7 @@
 [HTTP](#HTTP "Hypertext Transfer Protocol, TCP :80, TCP/IP model: App lyr, OSI: highest 2nd lyr")
 [HTTPS](#HTTPS "Hypertext Transfer Protocol Secure, TCP :443, TCP/IP model: App lyr, OSI: highest 2nd lyr") 
 <br>
-[CI](#CI "Continuous intergration (code is commited & tested)")/
+[CI](#CI "Continuous intergration (code is commited & tested)")
 [CD](#CD "Continuouse delivery (CI + deployed in prod)"):
 [Jenkins](#Jenkins "Jenkins")
 [GHA](#GHA "GitHub Actions")
@@ -19,7 +19,7 @@
 [EXT](#EXT "Extensions"):
 [MD](#MD "Markdown")
 </br>
-[PY](#PY "some test<br>some text<br>some text<br>'''<br>test<br>'''<br>some text<br>some text")
+[PY](#PY "some test<br>some text<br>some text<br>'''<br>test<br>'''<br>some text<br>some text"):
 [[]](#[] "Lists")
 [{}](#{} "Dictionaries")
 [()](#() "Tuples")

@@ -2,14 +2,7 @@
 
   
 [HTTP](#HTTP) [HTTPS](#HTTPS) <br>
-[PY](#PY "some test
-some text
-some text
-'''
-test
-'''
-some text
-some text")
+[PY](#PY "some test<br>some text<br>some text<br>'''<br>test<br>'''<br>some text<br>some text")
 [MD](#MD)
 <br>
 

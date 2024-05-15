@@ -46,6 +46,8 @@
 [PW](#PW "Playwright"):
 [Inst](#PWInst "Playwright installation & configuration")
 
+artist художник- metrics, reports
+massive массовик-затейник - process large number of files, etc
 
 # Contents:
 ### <a id="MD">MD</a>

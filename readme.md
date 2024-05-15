@@ -3,7 +3,7 @@ test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1
 - 145 chars on m1 laptops
 <a id="#main">Main</a>
 
-[Перейти к Заголовку 1](#title1)
+[HTTP](##HTTP) [HTTPS](##HTTPS)
 
 ## Some Title 1
 Some content
@@ -50,3 +50,10 @@ Some content
 
 ## <a id="title1">Заголовок 1</a>
 Какой-то контент
+
+## HTTP
+- blah blab
+
+## HTTPS
+- blah blab
+

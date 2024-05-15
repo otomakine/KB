@@ -1,8 +1,8 @@
 test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1
 - 149 chars on ext monitor
 - 145 chars on m1 laptops
-<a id="#main">Main</a>
-
+  
+<a id="home">HOME</a>
 [HTTP](#HTTP) [HTTPS](#HTTPS)
 
 ## Some Title 1
@@ -52,8 +52,10 @@ Some content
 
 
 #### <a id="HTTP">HTTP</a>
+[^](#home)
 - blah blab
 
 #### <a id="HTTPS">HTTPS</a>
+[^](#home)
 - blah blab
 

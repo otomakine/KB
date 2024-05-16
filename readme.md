@@ -33,6 +33,9 @@
 [EXT](#EXT "Extensions"):
 [MD](#MD "Markdown")
 <br>
+[CD](#Coding "Coding"):
+[OOP](#OOP "OOP")
+<br>
 [PY](#PY "some test<br>some text<br>some text<br>'''<br>test<br>'''<br>some text<br>some text"):
 [Inst](#PYInst "Python installation & configuration")
 [PyCharm](#PyCharm "PyCharm")
@@ -99,6 +102,37 @@ test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1
 [home](#home)
 - 1HR: https://youtu.be/yTNQnSKqKis?t=1006
 - Merion Academy short: https://www.youtube.com/watch?v=CtHcrmRplJI
+- Java based, 2 jar files (Master/Controller+Agents=Node) 
+- <2008 Hundson (bought by Oracle), >2008 Jenkins (MIT)
+- Agents: can be on Linix, Win, macOS
+- Modules: jobs, users, plugins (eg pipeline), credentials (for integration), node/cloud (SlaveNodesAgent (SSH) / CloudSlaves (API) ), global configs (settings)
+- Tasks: jobs
+- Keys: via ssh-keygen primary & public (.pub)
+- pipeline { agent (any) stages > steps
+- when, always, success
+- Languages: Groovy or Scripted Style
+- Ubuntu installation:
+```
+Step 1: Install Java
+$ sudo apt update
+$ sudo apt install openjdk-8-jdk
+
+Step 2: Add Jenkins Repository
+$ wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add –
+
+Step 3: Add Jenkins repo to the system
+$ sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+
+Step 4: Install Jenkins
+$ sudo apt update
+$ sudo apt install Jenkins
+
+Step 5: Verify installation
+$ systemctl status Jenkins
+
+Step 6: Once Jenkins is up and running, access it from the link:
+http://localhost:8080
+```
 
 ### <a id="Git">Git</a>
 [home](#home)
@@ -144,6 +178,67 @@ $GitFlagName = Get-Date -Format "ddMMyy"
 - (db) ```mysql, postgresql, sqlite3```
 - (wsrv) ```apache2, nginx, uwsgi (uWSGI)```
 
+### <a id="Coding">Coding</a>
+[home](#home)
+- CS50 https://www.youtube.com/playlist?list=PLawfWYMUziZqyUL5QDLVbe3j5BKWj42E5
+
+### <a id="Patterns">Patterns</a>
+[home](#home)
+- Паттерн — устоявшийся способ решения типовой задачи
+- В метафорах https://habr.com/ru/articles/136766/
+- В автотестировании https://habr.com/ru/companies/jugru/articles/338836/ 
+
+#### Архитектурные
+```
+- Active Record (каждая таблица базы данных превращается в класс, каждая строка таблицы в объект этого класса, RoR, CakePHP, Castle & etc)
+```
+#### Порождающие паттерны
+Паттерны которые создают новые объекты, или позволяют получить доступ к уже существующим. То есть те шаблоны, по которым можно создать новый автомобиль и как это лучше сделать.
+```
+- Singleton (одиночка)
+- Registry (реестр, журнал записей)
+- Multiton (пул «одиночек»)
+- Object pool (пул объектов)
+- Factory (фабрика)
+- Builder (строитель)
+- Prototype (прототип)
+- Factory method (фабричный метод)
+- Lazy initialization (отложенная инициализация)
+- Dependency injection (внедрение зависимости)
+- Service Locator (локатор служб)
+```
+#### Структурирующие паттерны
+Данные паттерны помогают внести порядок и научить разные объекты более правильно взаимодействовать друг с другом.
+```
+- Adapter или wrapper (адаптер, обертка)
+- Bridge (мост)
+- Composite (компоновщик)
+- Decorator (декоратор, оформитель)
+- Facade (фасад)
+- Front controller (единая точка входа)
+- Flyweight (приспособленец)
+- Proxy или surrogate (прокси, заместитель, суррогат)
+```
+#### Паттерны поведения
+Эта группа паттернов позволяет структурировать подходы к обработке поведения и взаимодействия объектов. Проще говоря, как должны проходить процессы в которых существует несколько вариантов протекания событий.
+```
+- Chain of responsibility (цепочка обязанностей)
+- Command или action (команда, действие)
+- Interpreter (интерпретатор)
+- Iterator (итератор, указатель)
+- Mediator (посредник)
+- Memento (хранитель)
+- Observer или Listener (наблюдатель, слушатель)
+- Blackboard (доска объявлений)
+- Servant (слуга)
+- State (состояние)
+- Strategy (стратегия)
+- Specification (спецификация, определение)
+- Subsumption (категоризация)
+- Visitor (посетитель)
+- Single-serving visitor (одноразовый посетитель)
+- Hierarchical visitor (иерархический посетитель)
+```
 ### <a id="PowerShell">PowerShell</a>
 [home](#home)
 ```powershell
@@ -223,4 +318,23 @@ me/me
 ### <a id="Fail">Failures</a>
 [home](#home)
 - Portal halted & AZ Queue sent/lost all results > Parsed logs in cold blob & re-sent results to Portal (logs had JSONs)
+
+### <a id="EndQs">Interview Ending Questions</a>
+[home](#home)
+Завершение интервью - свои вопросы
+- Что ожидается от сотрудника в первое время, какие метрики?
+- Как появилась вакансия, что не устроило в прошлом сотруднике?
+- Если вы бы меня наняли как бы вы поняли через год что вы сделали правильный выбор?
+- Какой процент автоматизации и в какие команды ищете автоматизаторов?
+- Почему ищете кого-то на эту вакансию, что произошло с прежним работником?
+- Спросить что-то интересное о себе и о чем с удовольствием расскажут (напр. что крутого команда сделала за последнее время)
+- Какие планы у отдела на полгода-год
+- Какие планы на меня на сл год-два, какие технологии и фрейм ворки, как часто релизы и как быстро чекины комитятся, много ли легаси
+- Какие грейды у членов команды, сколько человек, кто руководитель, с какими отделами общаться
+- Есть ли дежурства
+- Куда идет компания, что будем делать через 10 лет, как взорвем рынок
+- Как устроено перформанс ревью, какие метрики, какие скилы оцениваете, годовые обзоры
+- Как происходит пост обучение сотрудников, курсы, планы развития
+- Что делаете когда не укладываетесь в спринт?
+- Какие технологии используете, как происходит процесс взаимодей
 

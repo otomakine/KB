@@ -430,6 +430,7 @@ me/me
 - Tutored a lot of colleagues, up to 30 folks on education sessions
 - Tech support for utilities, portals all by myself & a lot of assistance to other depts (qms, scala ERP with cloud, called MS) no one was helping
 - other ERP dpt had issues with Azure, helped them with perf testing and to get proper config from MS, set up and moved their vms from us to them
+- msk devs wanted all sorts of msgs to mail and  IM is something fails or passes, all requests were satisfied, we used hooks in tfs
 - helped us, mx and in dept to setup sending out results to my portals
 - all reports were compiled by me, others wrote autotests
 - our aut utility was tested\benchmarked\supported solely by me,manual, aut and extensive 400 hours autotests by me when situation allowed comparing exec time for suites, documentation and help review with IT writers team
@@ -450,6 +451,7 @@ me/me
 - tight communication with usmx in aut depts solely me, exch of exp and resolving issues (erp was installed in 3 different ways lol)
 - fixing scripts, last years when many were fired, moved vms to austin and setupped\recreared working with it and infra team
 - 20+ managers, 20+ depts in touch
+- + a lot of interesting things, code base should be checked.
 
 
 ![image](https://github.com/otomakine/KB/assets/29117632/6c88c964-a73e-4e10-b95f-f65cac0fc631)

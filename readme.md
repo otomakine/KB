@@ -45,9 +45,14 @@
 <br>
 [PW](#PW "Playwright"):
 [Inst](#PWInst "Playwright installation & configuration")
+<b>
+[QA](#QA "QA"):
+[TDT](#TDT "Test Design Techniques"):
+<b>
+[Int](#Int "Interview"):
+[Ach](#Ach "Achievements")
+[Fail](#Fail "Fails")
 
-artist художник- metrics, reports
-massive массовик-затейник - process large number of files, etc
 
 # Contents:
 ### <a id="MD">MD</a>
@@ -100,3 +105,25 @@ test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1
 [home](#home)
 - Docs https://playwright.dev/docs/intro
 - Into https://habr.com/ru/articles/597293/
+
+### <a id="QA">QA</a>
+[home](#home)
+
+### <a id="TDT">TDT</a>
+[home](#home)
+
+### <a id="Int">Interview</a>
+[home](#home)
+
+### <a id="Ach">Achievements</a>
+[home](#home)
+me/me
+- Re-run ASAP > QA Aut want > higher priority added
+- Re-run ASAP & create bak > Devs want > even higher priority & backs added
+- Logs & baks clean-up > Massive tests filled shares > CI/CD task added (daily-nightly)
+- Portal results > QAs want to send info to devs > Envelop icon opens Outlook ()
+
+### <a id="Fail">Failures</a>
+[home](#home)
+- Portal halted & AZ Queue sent/lost all results > Parsed logs in cold blob & re-sent results to Portal (logs had JSONs)
+

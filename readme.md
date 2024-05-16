@@ -382,11 +382,13 @@ me/me
 - PS dev: Logs & baks clean-up > Massive tests filled shares > CI/CD task added (daily-nightly)
 - ROR dev: results > QAs want to send info to devs > Envelop icon opens Outlook ()
 - Portal results less clicks > QAs want to analyze results faster > P draws icons using result stats
-- <details><summary>Каков вопрос</summary>![image](https://github.com/otomakine/KB/assets/29117632/6c88c964-a73e-4e10-b95f-f65cac0fc631)</details> 
+- <details><summary>Каков вопрос</summary> 
+![image](https://github.com/otomakine/KB/assets/29117632/6c88c964-a73e-4e10-b95f-f65cac0fc631)
+</details> 
 - Execute Web S 1by1 > QAs told W results are too big >
 - 1ms timeouts
 - Cl VMs On/Off
-- - ![image](https://github.com/otomakine/KB/assets/29117632/6c88c964-a73e-4e10-b95f-f65cac0fc631)
+- ![image](https://github.com/otomakine/KB/assets/29117632/6c88c964-a73e-4e10-b95f-f65cac0fc631)
 
 ### <a id="Fail">Failures</a>
 [home](#home)

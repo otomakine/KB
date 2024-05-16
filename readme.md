@@ -13,7 +13,7 @@
 [ADevOps](#ADevOps "MS Azure DevOps, ")
 [TC](#TeamCity "Team City")
 <br>
-[Git](#Git "Git, bought by MS")
+[Git](#Git "Git, bought by MS, clone, commit -am <msg>, ")
 [TFVC](#TFVC "Team Fondation Version Control")
 <br>
 [Data](#Data "Data"):
@@ -45,14 +45,14 @@
 <br>
 [PW](#PW "Playwright"):
 [Inst](#PWInst "Playwright installation & configuration")
-<b>
+<br>
 [QA](#QA "QA"):
 [TDT](#TDT "Test Design Techniques"):
-<b>
+<br>
 [Int](#Int "Interview"):
 [Ach](#Ach "Achievements")
 [Fail](#Fail "Fails")
-
+<br>
 
 # Contents:
 ### <a id="MD">MD</a>
@@ -123,6 +123,8 @@ me/me
 - Logs & baks clean-up > Massive tests filled shares > CI/CD task added (daily-nightly)
 - Portal results > QAs want to send info to devs > Envelop icon opens Outlook ()
 - Portal results less clicks > QAs want to analyze results faster > P draws icons using result stats
+- Execute Web S 1by1 > QAs told W results are too big >
+- 
 
 ### <a id="Fail">Failures</a>
 [home](#home)

@@ -426,6 +426,31 @@ me/me
 - AUT+IT: 1ms timeouts > new ssd > measured we can go 1ms, rebalanced vms, changed how dbs were restored from regular to snapshots, x2 lifetime, from 16gb to 8gb disk wr per restore
 - Cloud VMs On/Off, cust & part needed vms when we were offline, AZ sched was not working properly, so I created tasks in ci cd to shut down and start up vms when needed
 - Cloud VMs RDS grace period 120d, vms were very hard to setup, no way to use templates or setup RDS server in cloud, I worked to find colution & finally did, PS file was resetting grace period
+- Monitoring Build/Infra team, bad builds were not an issue, but also file delivery was pure, I monitored all issues & saved\parsed additional logs for yearly report to their boss. I did a great job for whole company, finfing a tons of infra and dev bugs immediately, thats why when we were absent quality is drocode pping
+- Tutored a lot of colleagues, up to 30 folks on education sessions
+- Tech support for utilities, portals all by myself & a lot of assistance to other depts (qms, scala ERP with cloud, called MS) no one was helping
+- other ERP dpt had issues with Azure, helped them with perf testing and to get proper config from MS, set up and moved their vms from us to them
+- helped us, mx and in dept to setup sending out results to my portals
+- all reports were compiled by me, others wrote autotests
+- our aut utility was tested\benchmarked\supported solely by me,manual, aut and extensive 400 hours autotests by me when situation allowed comparing exec time for suites, documentation and help review with IT writers team
+- test complete required parsing all info from logs, so that autotesters do not need to open huge logs, at the time of failure they returned some info which could not be easily obtained later + xml parsing.
+- our aut utility participated on most discussions with devs (3 devs)
+- retesting was easy due to advanced scheduling  system, autotesters were happy, 2 priorities, was a bit difficult but i did it
+- node.js helped to setup web environments for autotetsers and aut vms
+- setuped test complete vms with licenses resolved all issues with other depts
+- monitored expenses, found reasons why costy, reported to managers (1+1+4)
+- ubuntu + mongod solely mine area, all setup and infra, indexes in mondod speeded up 20-30 time some sneaky large report loved by some autotesters
+- worked with IT trying to optimize load (later in Austin vms were managed automatically)
+- connect to 40 vms at once not an issue royal ts, this was also helped to test iScala rdp_rds connections
+- antivirus issues also resolved by me, 450 vms, later was helping Marina with her vms
+- all tickets to IT were sent via me & I contacted with them, ips, issues, rights, if any issues with vms I helped to investigate
+- cloud setup & admins & MS also mine part (but for TFS we had other admin, he backed up db)
+- kept an eye on devs of fws which we got TS & wdio\protractor, often we were finding issues (ate\ewa ours, ts in, wdio mx)
+- other autotesters helped with code coverage sometimes i had no free time
+- tight communication with usmx in aut depts solely me, exch of exp and resolving issues (erp was installed in 3 different ways lol)
+- fixing scripts, last years when many were fired, moved vms to austin and setupped\recreared working with it and infra team
+- 20+ managers, 20+ depts in touch
+
 
 ![image](https://github.com/otomakine/KB/assets/29117632/6c88c964-a73e-4e10-b95f-f65cac0fc631)
 

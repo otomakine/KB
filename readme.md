@@ -452,7 +452,7 @@ me/me
 - fixing scripts, last years when many were fired, moved vms to austin and setupped\recreared working with it and infra team
 - 20+ managers, 20+ depts in touch
 - automatically capturing screnshots in different langs, not my idea, but only i used to work on this )
-- + a lot of interesting things, sorting, auto-reports, gates with api requests, scripting frameworks and pipes,etc others also did aome interesting things, i was a hero but not alone, dev had their own srv and iscala also monitored their installation only, results were stored on my portals, a lot of portals but now all in ruins.
+- + a lot of interesting things, sorting, auto-reports, gates with api requests, scripting frameworks and pipes,etc others also did aome interesting things, i was a hero but not alone, dev had their own srv and iscala also monitored their installation only, results were stored on my portals, a lot of portals but now all in ruins, most worked many years in row, 15-23
 
 
 ![image](https://github.com/otomakine/KB/assets/29117632/6c88c964-a73e-4e10-b95f-f65cac0fc631)

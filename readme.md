@@ -15,6 +15,7 @@
 <br>
 [Git](#Git "Git, bought by MS, clone, commit -am <msg>, ")
 [TFVC](#TFVC "Team Fondation Version Control")
+[Term](#Terminal "Terminal commands")
 <br>
 [Data](#Data "Data"):
 <br>
@@ -22,6 +23,7 @@
 [PostgreSQL](#PostgreSQL "PostgreSQL")
 [MSSQL](#MSSQL "MSSQL")
 [MySQL](#MySQL "MySQL")
+[SQLite](#SQLite "SQLite")
 <br>
 [NoSQL](#NoSQL "NoSQL"):
 [Mongod](#Mongod "Mongod")
@@ -33,6 +35,7 @@
 <br>
 [PY](#PY "some test<br>some text<br>some text<br>'''<br>test<br>'''<br>some text<br>some text"):
 [Inst](#PYInst "Python installation & configuration")
+[PyCharm](#PyCharm "PyCharm")
 [[]](#[] "Lists")
 [{}](#{} "Dictionaries")
 [()](#() "Tuples")
@@ -46,6 +49,7 @@
 [PW](#PW "Playwright"):
 [Inst](#PWInst "Playwright installation & configuration")
 <br>
+[Se](#Selenium "Selenium, jasmine-trx-reporter"): 
 [QA](#QA "QA"):
 [TDT](#TDT "Test Design Techniques"):
 <br>
@@ -89,6 +93,50 @@ test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1
 - 1HR: https://youtu.be/yTNQnSKqKis?t=1006
 - Merion Academy short: https://www.youtube.com/watch?v=CtHcrmRplJI
 
+### <a id="Git">Git</a>
+[home](#home)
+- cheatsheet https://training.github.com/downloads/ru/github-git-cheat-sheet/
+- (usr setup) ```git config --global user.name "name", config --global user.email "e-mail"```
+- (creation) ```git init``` (new prj) , ```clone -b $GitBranch --progress (error stream to terminal) --verbose (details)```
+- (edittig) ``` git status``` (overall), ```add .```, ```diff --staged``` (diff last), ```reset "file"``` (removes indexing), ```commit -ma "msg"```
+- (file ops) ``` git pull -v``` (verbose)
+- (undo) ```git reset --hard``` (resets)
+- (other) ```git difftool``` (run outer tool), ```rm``` (remove), ```mv``` (move), ```clean``` (rubbish)
+- (patching) ```git merge``` (merge branches),
+- (ignoring) ```*.log, build/, temp-*```
+- (list ignored) ```git ls-files --others --ignored --exclude-standard```
+```powershell
+$GitBranch = Select-XML -path $TestConfig -xpath "/config/GitBranch"
+$GitBranch = $GitBranch -replace ':.*', ''
+$GitFolderName = "eiv-apps-aut"
+[string]$GitDir = "C:\_projects"
+[string]$LogDir = "$GitDir\eiv-apps-aut\src\results"
+[string]$PullGitOperation = "pull -v" #default GIT operation if GIT CLONE has been already executed today
+[string]$GitReset = "reset --hard HEAD"
+[string]$CloneGitOperation = "clone https://PAT:<pat><site>/<dir>/_git/eiv-apps-aut -b $GitBranch --progress --verbose"
+[string]$GitFlagName = ""
+[string]$GitFlagsLoc = "$WorkDir\gitflags"
+Set-Location "$GitDir\eiv-apps-aut"
+$GitFlagName = Get-Date -Format "ddMMyy"
+```
+### <a id="Terminal">Terminal</a>
+[home](#home)
+- (base) ```ls, cd, mkdir, rmdir``` (files) ```touch, rm, cat (contents), echo, man (help)```
+- (system) ```update (worktime), top (act procs), ps (all procs), kill, reboot, useradd, userdel, passwd (ch pswd), sudo```
+- (users) ```id, last (entry history), who (auth list), groupadd “testgroup”, adduser/deluser,usermod NewUser```
+- (network) ```ip, ping, ifconfig, route (trace?), ssh, scp (copy data via ssh), wget (web get files)```
+- (packages) ```apt (Deb\Ubuntu), yum (Red Hat CentOS), pacman (Ach Linux)```
+- (browse) ```cd /. (up), cd, cd/root, cd .. (down), cd /root/.ssh```
+- (dirs) ```mkrdir NewDir, rm -rf NewDir (r+f), cp -r olddir1 newdir2```
+- (files1) ```ls -al. pwd (show curr dir), rm NewFile, cp oldfile1 newfile2 (cpy contents), mv oldfile1 newfile2 (ren), wc ShwFileStats```
+- (files2) ```touch newEmptyFile, more ShwContIncrement, head Shw1st10Lines, tail ShwLast10Lines, gpg -c newfile (encr wpass), gpg newfile.gpg (decr)```
+- (text) ```vi, nano, grep, sed (edit), awk (txt data edit)```
+- (images) ```feh (view), gimp (editor), convert (conv)```
+- (video) ```vlp (plr), ffmpeg (editor), mencoder (conv)```
+- (audio) ```mpv (plr), audacity (editor), sox (conv)```
+- (db) ```mysql, postgresql, sqlite3```
+- (wsrv) ```apache2, nginx, uwsgi (uWSGI)```
+  
 ### <a id="PY">PY</a>
 [home](#home)
 - PY RU 1hr: https://www.youtube.com/watch?v=aySjqUWbU3E
@@ -101,7 +149,7 @@ test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1
 [home](#home)
 - Ls4 https://www.youtube.com/watch?v=6QjDW-p_F-o&list=PLB2iiSfKWtvykq9s0plSVI_Du60i0iphU&index=4
 
-### <a id="PT">Playwright</a>
+### <a id="PW">Playwright</a>
 [home](#home)
 - Docs https://playwright.dev/docs/intro
 - Into https://habr.com/ru/articles/597293/
@@ -124,7 +172,8 @@ me/me
 - Portal results > QAs want to send info to devs > Envelop icon opens Outlook ()
 - Portal results less clicks > QAs want to analyze results faster > P draws icons using result stats
 - Execute Web S 1by1 > QAs told W results are too big >
-- 
+- 1ms timeouts
+- Cl VMs On/Off
 
 ### <a id="Fail">Failures</a>
 [home](#home)

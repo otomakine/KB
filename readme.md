@@ -418,7 +418,7 @@ me/me
 - ROR dev: Re-run ASAP > QA Aut want > higher priority added
 - ROR dev: Re-run ASAP & create bak > Devs want > even higher priority & backs added
 - PS dev: Logs & baks clean-up > Massive tests filled shares > CI/CD task added (daily-nightly)
-- ROR-JS dev: srv which should not schedule did
+- ROR-JS dev: srv which should not schedule did, iscala had a lot of necessities, their portal was much complex, also supported a lot of very complex requests from in, they wanted to draw tables, a lot of info for mongo db + portal visials should be adjusted for their products.
 - ROR-JS-SVG: funny results with 3 colour pie diagrams, whole saturday
 - ROR dev: results > QAs want to send info to devs > Envelop icon opens Outlook ()
 - Portal results less clicks > QAs want to analyze results faster > P draws icons using result stats

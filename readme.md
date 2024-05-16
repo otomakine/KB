@@ -46,12 +46,19 @@
 [Mods](#PTmods "Pytest specific modules")
 [Asserts](#PTAsserts "Asserts")
 <br>
+[PowerShell](#PowerShell "PowerShell"):
+[Variables](#PSVars "PowerShell Variables")
+[Cycles](#PSCycles "PowerShell Cycles")
+<br>
 [PW](#PW "Playwright"):
 [Inst](#PWInst "Playwright installation & configuration")
 <br>
-[Se](#Selenium "Selenium, jasmine-trx-reporter"): 
 [QA](#QA "QA"):
+<br>
 [TDT](#TDT "Test Design Techniques"):
+<br>
+[AUT](#AUT "Automation"):
+[Se](#Selenium "Selenium, jasmine-trx-reporter, jasmine-spec-reporter"): 
 <br>
 [Int](#Int "Interview"):
 [Ach](#Ach "Achievements")
@@ -136,7 +143,45 @@ $GitFlagName = Get-Date -Format "ddMMyy"
 - (audio) ```mpv (plr), audacity (editor), sox (conv)```
 - (db) ```mysql, postgresql, sqlite3```
 - (wsrv) ```apache2, nginx, uwsgi (uWSGI)```
-  
+
+### <a id="PowerShell">PowerShell</a>
+[home](#home)
+```powershell
+Clear/Write-Host, Test-Path, New-Folder/Item/
+ConvertFrom/To-Csv/Json/Markdown/Html
+Get/Start/Stop-Service/Job
+Get-Date/Host/
+Get-Process | Select-Object -Property [] | Sort-Object -Property [] | Out-File -FilePath <str>
+Join-String
+Measure-Command
+New-Object/File
+Out-File/GridView
+Read/Write-Host
+```
+### <a id="PSVars">PowerShell Variables</a>
+[home](#home)
+```powershell
+$MyVariable = 1, 2, 3
+$Path = "C:\Windows\System32"
+$Processes = Get-Process
+$Today = (Get-Date).DateTime
+```
+
+### <a id="PSCycles">PowerShell Cycles</a>
+[home](#home)
+```powershell
+while($val -ne 3){$val++; Write-Host $val}
+
+$i = 1
+Write-Host "Waiting for TRX file ..."
+do {
+    if (Test-Path $TRXpath) { Write-Host "TRX file found"; Break }
+    else { Write-Host "TRX file not found: $i" }
+    Start-Sleep -Seconds (1)
+    $i++
+} while ($i -le 1 * 3)
+```
+
 ### <a id="PY">PY</a>
 [home](#home)
 - PY RU 1hr: https://www.youtube.com/watch?v=aySjqUWbU3E
@@ -166,10 +211,10 @@ $GitFlagName = Get-Date -Format "ddMMyy"
 ### <a id="Ach">Achievements</a>
 [home](#home)
 me/me
-- Re-run ASAP > QA Aut want > higher priority added
-- Re-run ASAP & create bak > Devs want > even higher priority & backs added
-- Logs & baks clean-up > Massive tests filled shares > CI/CD task added (daily-nightly)
-- Portal results > QAs want to send info to devs > Envelop icon opens Outlook ()
+- ROR dev: Re-run ASAP > QA Aut want > higher priority added
+- ROR dev: Re-run ASAP & create bak > Devs want > even higher priority & backs added
+- PS dev: Logs & baks clean-up > Massive tests filled shares > CI/CD task added (daily-nightly)
+- ROR dev: results > QAs want to send info to devs > Envelop icon opens Outlook ()
 - Portal results less clicks > QAs want to analyze results faster > P draws icons using result stats
 - Execute Web S 1by1 > QAs told W results are too big >
 - 1ms timeouts

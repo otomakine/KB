@@ -451,7 +451,8 @@ me/me
 - tight communication with usmx in aut depts solely me, exch of exp and resolving issues (erp was installed in 3 different ways lol)
 - fixing scripts, last years when many were fired, moved vms to austin and setupped\recreared working with it and infra team
 - 20+ managers, 20+ depts in touch
-- + a lot of interesting things, code base should be checked.
+- automatically capturing screnshots in different langs, not my idea, but only i used to work on this )
+- + a lot of interesting things, sorting, auto-reports, gates with api requests, etc
 
 
 ![image](https://github.com/otomakine/KB/assets/29117632/6c88c964-a73e-4e10-b95f-f65cac0fc631)

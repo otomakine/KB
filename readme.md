@@ -58,14 +58,7 @@
 [Inst](#PWInst "Playwright installation & configuration")
 <br>
 [QA](#QA "QA"):
-<br>
-[TDT](#TDT "Test Design Techniques:1. Классы эквивалентности (диапазоны, 1)
-2. Граничные значения (границы, 1-2-3)
-3. Причинно-следственный анализ (карта причин и откликов)
-4. Прогнозирование ошибок (негативные тесты)
-5. Попарное тестирование (pair-wise, 3x3, 9 vs 27)
-6. Диаграмма состояний (диаг сост типа флоу Jira)
-7. Таблица принятия решений (decision table, Pos&N х T/F = Results)"):
+[TDT](#TDT "Test Design Techniques: 1. Классы эквивалентности (диапазоны, 1) 2. Граничные значения (границы, 1-2-3) 3. Причинно-следственный анализ (карта причин и откликов) 4. Прогнозирование ошибок (негативные тесты) 5. Попарное тестирование (pair-wise, 3x3, 9 vs 27) 6. Диаграмма состояний (диаг сост типа флоу Jira) 7. Таблица принятия решений (decision table, Pos&N х T/F = Results)")
 <br>
 [AUT](#AUT "Automation"):
 [Se](#Selenium "Selenium, jasmine-trx-reporter, jasmine-spec-reporter"): 

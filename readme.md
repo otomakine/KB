@@ -122,6 +122,7 @@ me/me
 - Re-run ASAP & create bak > Devs want > even higher priority & backs added
 - Logs & baks clean-up > Massive tests filled shares > CI/CD task added (daily-nightly)
 - Portal results > QAs want to send info to devs > Envelop icon opens Outlook ()
+- Portal results less clicks > QAs want to analyze results faster > P draws icons using result stats
 
 ### <a id="Fail">Failures</a>
 [home](#home)

@@ -19,7 +19,7 @@
 [Data](#Data "Data"):
 <br>
 [SQL](#SQL "SQL"):
-[PG](#PG "PostgreSQL")
+[PostgreSQL](#PostgreSQL "PostgreSQL")
 [MSSQL](#MSSQL "MSSQL")
 [MySQL](#MySQL "MySQL")
 <br>

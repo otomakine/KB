@@ -43,6 +43,7 @@
 [{}](#{} "Dictionaries")
 [()](#() "Tuples")
 [VAR](#VAR "Variabes")
+[Fun](#PyFun "some funny expressions & what they return")
 <br>
 [PT](#PT "Pytest"):
 [Inst](#PTInst "Pytest installation & configuration")
@@ -192,14 +193,14 @@ I - Interface Segregation (кл не должен реал интерф к ко�
 D - Dependency Inversion (верх не зависит от низов, детали зависят от абстракций)
 ```
 на примерах https://habr.com/ru/articles/688530/ 
-<code>
+```
 SOLID - это принципы разработки программного обеспечения, следуя которым Вы получите хороший код, который в дальнейшем будет хорошо масштабироваться и поддерживаться в рабочем состоянии.
 S - Single Responsibility Principle - принцип единственной ответственности. Каждый класс должен иметь только одну зону ответственности.
 O - Open closed Principle - принцип открытости-закрытости. Классы должны быть открыты для расширения, но закрыты для изменения.
 L - Liskov substitution Principle - принцип подстановки Барбары Лисков. Должна быть возможность вместо базового (родительского) типа (класса) подставить любой его подтип (класс-наследник), при этом работа программы не должна измениться.
 I -  Interface Segregation Principle - принцип разделения интерфейсов. Данный принцип обозначает, что не нужно заставлять клиента (класс) реализовывать интерфейс, который не имеет к нему отношения.
 D - Dependency Inversion Principle - принцип инверсии зависимостей. Модули верхнего уровня не должны зависеть от модулей нижнего уровня. И те, и другие должны зависеть от абстракции. Абстракции не должны зависеть от деталей. Детали должны зависеть от абстракций.
-</code>
+```
 ### <a id="Patterns">Patterns</a>
 [home](#home)
 - Паттерн — устоявшийся способ решения типовой задачи
@@ -295,9 +296,23 @@ do {
 } while ($i -le 1 * 3)
 ```
 
-### <a id="PY">PY</a>
+### <a id="PY">Python</a>
 [home](#home)
 - PY RU 1hr: https://www.youtube.com/watch?v=aySjqUWbU3E
+- Интепретируемый
+- pip/pip3 package manager
+- integers, float, “strings”, [lists], (tuples), {sets}, {dictionaries}
+
+### <a id="PyFun">Python Fun</a>
+[home](#home)
+```python
+extend() # l = [1, 2, 3]; l.extend('abc'); print(l) # [1, 2, 3, 'a', 'b', 'c']
+in (3) # for i in (3): print(i) # Error
+f’{}’ # print(f'Curly brackets: {}') # Error
+print(50 and 100) # 100
+add() # set1 = {1, 2, 3}; set2 = set1.add(4); print(set2) # None # print({1, 2, 3}.add(4))
+print(11 > 0 is True) # False
+```
 
 ### <a id="{}">{}</a>
 [home](#home)
@@ -311,6 +326,29 @@ do {
 [home](#home)
 - Docs https://playwright.dev/docs/intro
 - Into https://habr.com/ru/articles/597293/
+
+Actions: 
+
+Navigation
+```python
+goto() # page.goto("https://www.demoblaze.com/")
+reload # page.reload
+
+Interaction
+```python
+click() # page.click("id=login2")
+locator() # page.locator("id=login2").click()
+```
+Text input
+```python
+fill() # page.locator("[name=country]").fill("Russia")
+```
+Verification
+```python
+expect() # expect().to_have_title() # expect(page).to_have_title("Google")
+.to_have_title() # expect(page).to_have_title(re.compile("text"))
+.toHaveCSS # expect(page.locator("#zip-code")).toHaveCSS("background-color", "rgb(248,215,218)")
+```
 
 ### <a id="QA">QA</a>
 [home](#home)

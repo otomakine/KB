@@ -94,6 +94,44 @@ test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1test1
 - HSTS forces HTTP to use HTTPS for sites which use both
 - Hacker can substitute original cert with open key sent by server with his own if he is between client & server, expecially if certs are self-signed & both cli & srv will think that communication is secure
 
+### <a id="Mongod">Mongod</a>
+[home](#home)
+- cluster.db.collection
+- pass, cert(more safe)
+- json document db, unique ids
+- for non-structured data
+- if notExists then will be created
+- if no collections left, db is dropped
+- ids can be custom & short, eg 1
+```
+db = cluster.db
+coll = db.users
+for v in coll.find(); print(v)
+insertOne(json)
+insertMany(json_data)
+
+query = {"status": True}; for v in coll find(query, {"_id": 0, "status": 1}); print(v) # don’t show id ((!) “0” works for _id only, “1” is ok for other keys), show status
+$gt, $regex
+$regex # query{“name”: {“$regex”: “test*”}} or query{“name”: {“$regex”: “test.”}} # asterix or dot
+find_one: find_one({“name”: “test3”}) # returns only one & 1st document
+sort # for v in coll.find().sort{“name”, 1} # “1” for asc, “-1” for desc
+limit # 
+count_documents # res = coll.count_documents({}); print(res) 
+list_collection_names # res = db.list_collection_names(); print(res)
+drop # coll.drop()
+insert_one # for i in range(20): coll.insert_one({“_id”: i, “name”: f”test{i}”})
+update_one # current = {"name": "test3"}; new_data = {"$set": {"name": "new"}}; coll update_one(current, new_data)
+update_many # current = {"name": {"$regex": "test."3}; new _data = {"$set": {"name": "new" 3}; coll update_many(current, new _data)
+delete_one # coll.delete_one({"_id" : 0})
+delete_many # query = {"name222" : {"$regex" : "new2"}}; coll.delete_many(query)
+delete_many # all # res = coll.delete_many({}); print("deleted: ", res.deleted_count)
+deleted_count # query = {"name": {"$regex" : "new*"}}; res = coll.delete_many(query); print("deleted: ", res.deleted_count)
+create_index # coll.create_index([("name", pymongo.DESCENDING)]); print(coll.index_information())
+$set # see above
+$inc # increment # current={"_id": 1}; new_data={"$inc": {"balance": -100}}; coll.update_many(current, new_data)
+$pop # remove, by val ind; 1 stands for 2nd # current = {"_id": 1}; new_data = {"$pop": {"arrage": 1}}; coll update_one(current new_data) 
+$pull # remove, by val txt # current = {"_id" : 1}; new_data = {"$pull" : {"arrage": "hello"}}; coll update_one(current new_data)
+```
 ### <a id="ADevOps">Azure DevOps</a>
 [home](#home)
 - Wiki: https://en.wikipedia.org/wiki/Azure_DevOps_Server
@@ -382,13 +420,11 @@ me/me
 - PS dev: Logs & baks clean-up > Massive tests filled shares > CI/CD task added (daily-nightly)
 - ROR dev: results > QAs want to send info to devs > Envelop icon opens Outlook ()
 - Portal results less clicks > QAs want to analyze results faster > P draws icons using result stats
-- <details><summary>Каков вопрос</summary> 
-![image](https://github.com/otomakine/KB/assets/29117632/6c88c964-a73e-4e10-b95f-f65cac0fc631)
-</details> 
 - Execute Web S 1by1 > QAs told W results are too big >
 - 1ms timeouts
 - Cl VMs On/Off
-- ![image](https://github.com/otomakine/KB/assets/29117632/6c88c964-a73e-4e10-b95f-f65cac0fc631)
+
+![image](https://github.com/otomakine/KB/assets/29117632/6c88c964-a73e-4e10-b95f-f65cac0fc631)
 
 ### <a id="Fail">Failures</a>
 [home](#home)

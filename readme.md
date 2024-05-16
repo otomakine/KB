@@ -418,11 +418,14 @@ me/me
 - ROR dev: Re-run ASAP > QA Aut want > higher priority added
 - ROR dev: Re-run ASAP & create bak > Devs want > even higher priority & backs added
 - PS dev: Logs & baks clean-up > Massive tests filled shares > CI/CD task added (daily-nightly)
+- ROR-JS dev: srv which should not schedule did
+- ROR-JS-SVG: funny results with 3 colour pie diagrams, whole saturday
 - ROR dev: results > QAs want to send info to devs > Envelop icon opens Outlook ()
 - Portal results less clicks > QAs want to analyze results faster > P draws icons using result stats
 - Execute Web S 1by1 > QAs told W results are too big >
-- 1ms timeouts
-- Cl VMs On/Off
+- AUT+IT: 1ms timeouts > new ssd > measured we can go 1ms, rebalanced vms, changed how dbs were restored from regular to snapshots, x2 lifetime, from 16gb to 8gb disk wr per restore
+- Cloud VMs On/Off, cust & part needed vms when we were offline, AZ sched was not working properly, so I created tasks in ci cd to shut down and start up vms when needed
+- Cloud VMs RDS grace period 120d, vms were very hard to setup, no way to use templates or setup RDS server in cloud, I worked to find colution & finally did, PS file was resetting grace period
 
 ![image](https://github.com/otomakine/KB/assets/29117632/6c88c964-a73e-4e10-b95f-f65cac0fc631)
 
